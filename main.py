@@ -1,3 +1,4 @@
+import time
 
 premena = True
 while premena:
@@ -67,6 +68,7 @@ while premena:
     premena = input("Chces pokracovat ano alebo nie: ")
     if premena == "nie" :
         print("tak cau")
+        time.sleep(3)
         break
 
 
